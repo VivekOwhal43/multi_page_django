@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static%}
+    <title>Demo My Site</title>
+</head>
+<body>
+    <h1>Complteted Task</h1>
+    <a href= "{% url 'contact' %}"><h2>Contact</h2></a>
+    <button onclick="buttonFunc()">Click  Me !!</button>
+    <script type="text/javascript" src="{% static 'main.js' %}"></script>
+</body>
+
+</html>
